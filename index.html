@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <tit> Tina Portfolio</title>
+</head>
+<body>
+      <h1>
+      <strong> Cooking in the kitchen </strong>
+    </h1>
+    <h2>
+      <span> Chicken is versatile </span>
+      <hr />
+    </h2>
+    <img
+      src="https://i.pinimg.com/236x/d8/d4/4e/d8d44ef23fd4cdeaf38c1c92b479d5ba.jpg"
+      alt=""
+    />
+    <hr />
+    <br />
+    <p>
+      Chicken is a popular protein choice, owing to its ease of preparation and
+      lean profile. Chicken has a reputation for being bland, yet this could not
+      be further from the truth. Whether you favour juicy chicken thighs or soft
+      chicken breasts, there are numerous simple ways to spice up the meat and
+      make it a winning lunch or dinner. We recommend starting with the Tuscan
+      Chicken Skillet. It's loaded with bacon, cream, and Parmesan—is your mouth
+      watering yet? There's no reason to eat out when you can prepare this
+      restaurant-style creamy, cheesy chicken with fettuccine at home.
+    </p>
+    <div>
+      <a
+        href="https://www.foodnetwork.com/recipes/photos/easy-chicken-dinner-recipes"
+        target="_blanks"
+      >
+        Read on <em>food networks</em>
+      </a>
+    </div>
+    <button>Interested in some recipes ?</button>
+    <script>
+      function Interested() {
+        let name = prompt("What is your name?");
+        let free = prompt("Would you like free chicken recipes?");
+        if (free === "Yes") {
+          alert("Great we will send you some!");
+        } else {
+          alert("That's unfortunate!");
+        }
+      }
+      let InterestedButton = document.querySelector("button");
+      InterestedButton.addEventListener("click", Interested);
+    </script>
+  </body>
+</html>
+
+</body>
+</html>
